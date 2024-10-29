@@ -1,0 +1,171 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-text {
+    font-size: 4.9rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .heading-text {
+    font-size: 4.6rem;
+  }
+
+  .nav-bar-link {
+    gap: 3.6rem;
+  }
+
+  header {
+    padding: 0 3.2rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .Testimonail-container {
+    padding: 9.4rem 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+
+  .hero-text-section,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+  }
+
+  .section-Testimonails {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .CTA {
+    grid-template-columns: 4fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-secondar {
+    font-size: 3.6rem;
+  }
+
+  .btn--fill {
+    margin-top: 1.6rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(255, 255, 255, 0.918);
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
+  }
+
+  .nav-open .nav-bar {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .btn-mobile-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .btn-mobile-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-bar-link {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid--column--3,
+  .grid--column--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36  / 74 / 86 / 98 */
