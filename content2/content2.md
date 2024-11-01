@@ -5,6 +5,7 @@ Got it! Here are some color schemes that can enhance the readability and appeal 
 - **Secondary Color**: White (#FFFFFF)
 - **Accent Color**: Gold (#FFD700)
 
+
 This combination exudes sophistication and professionalism, making it perfect for a tech-focused company with a stylish edge.
 
 ### 2. **Modern Minimalism**

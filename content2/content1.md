@@ -2,6 +2,7 @@
 
 At [Your Company Name], we are dedicated to enhancing consumer well-being through innovative technology. In today's fast-paced world, balancing work, family, and personal commitments often leaves little time for thoughtful wardrobe planning. This can lead to stress and a lack of confidence in one's appearance. Our mission is to solve this problem with an AI-centric approach.
 
+
 Our app allows users to input their style preferences, clothing sizes, and favorite colors. Our advanced AI algorithm then creates a personalized weekly wardrobe plan, ensuring that users always look their best without the hassle of daily outfit decisions. But we don't stop there. We partner with top fashion brands and local boutiques to curate and deliver these outfits directly to our users' doors in selected cities.
 
 With our monthly subscription service, users can choose to receive one or two outfits per day, every day of the month. This way, they can enjoy a seamless and stylish wardrobe experience, tailored to their unique tastes and lifestyle. 

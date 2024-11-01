@@ -5,3 +5,4 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".nav-bar", { delay: 500, origin: "top" });
+
