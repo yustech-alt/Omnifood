@@ -11,3 +11,9 @@ btnEL.addEventListener("click", function () {
   headerEL.classList.toggle("nav-open");
 });
 
+const ALLink = document.querySelector("a:link");
+
+// ALLink.forEach(function(link) => {
+//   link.addEventListener("click", function(e))
+  
+// });
