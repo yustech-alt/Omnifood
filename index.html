@@ -16,7 +16,7 @@
     <title>Omnifood | Never cook again</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="omnifood logo" href="./content/img/favicon.png" />
-    <link rel="menifest" href="./manifest.webmanifest">
+    <link rel="menifest" href="./manifest.webmanifest" />
     <link rel="stylesheet" href="./css/General.css" />
     <link rel="stylesheet" href="./css/Responsive.css" />
     <script
@@ -603,13 +603,14 @@
                 first meal is on us!
               </p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" netlify>
                 <div>
                   <label for="FullName">Full Name</label>
                   <input
                     id="FullName"
                     type="text"
                     placeholder="John Smith"
+                    name="Full-Name"
                     required
                   />
                 </div>
@@ -621,12 +622,15 @@
                     name=""
                     id="Email"
                     placeholder="me@example.com"
+                    name="Email"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="Select-where">Where did you hear from us!</label>
+                  <label for="Select-where" name="Select-where"
+                    >Where did you hear from us!</label
+                  >
                   <select name="" id="Select-where" required>
                     <option value="Options">Please Choose one options:</option>
                     <option value="friends">Family and Friends</option>
